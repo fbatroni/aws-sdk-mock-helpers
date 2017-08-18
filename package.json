@@ -1,0 +1,33 @@
+{
+  "name": "aws-sdk-mock-helpers",
+  "version": "0.0.1",
+  "description": "A set of helpers to mock aws-sdk classes in tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilt/aws-sdk-mock-helpers"
+  },
+  "keywords": [
+    "lambda",
+    "query",
+    "metrics"
+  ],
+  "author": "Ryan Martin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gilt/aws-sdk-mock-helpers/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "2.x",
+    "sinon": "^1.17.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
